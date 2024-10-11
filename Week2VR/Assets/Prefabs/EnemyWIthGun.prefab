@@ -82,7 +82,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 8634789799821435005, guid: 5de56f9d15cdedd48bcf2298d5e5c6de, type: 3}
-  shootPower: 75
+  shootPower: 50
 --- !u!1001 &4439363188784403608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -210,6 +210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 106b6f9c8e09fe7459de2ac1acb3b0ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  win: {fileID: 0}
 --- !u!4 &4184248888163431283 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56f9a4f2fdce98c408f174f5dc1b2cfd, type: 3}

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Audio;
 
 public class PlayerShoot : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class PlayerShoot : MonoBehaviour
     [SerializeField]
     private float shootPower = 2000f;
     public InputActionReference trigger;
+    [SerializeField]
+    public AudioClip clip;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +22,8 @@ public class PlayerShoot : MonoBehaviour
     {
         GameObject newBullet = Instantiate(BulletPrefab, transform.position, transform.rotation);
         newBullet.GetComponent<Rigidbody>().AddForce(transform.forward *shootPower);
+        GetComponent<AudioSource>().PlayOneShot(clip);
+        
     }
     // Update is called once per frame
     void Update()

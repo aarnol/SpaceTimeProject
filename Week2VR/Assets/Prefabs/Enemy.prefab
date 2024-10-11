@@ -195,6 +195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 106b6f9c8e09fe7459de2ac1acb3b0ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  win: {fileID: 7585962579481558136, guid: a0ea40bd139aedc43b0e8374d6139437, type: 3}
 --- !u!4 &4184248888163431283 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56f9a4f2fdce98c408f174f5dc1b2cfd, type: 3}

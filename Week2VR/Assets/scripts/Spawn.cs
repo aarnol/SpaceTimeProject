@@ -10,7 +10,7 @@ public class Spawn : MonoBehaviour
     [SerializeField]
     public GameObject regEnemy;
     public GameObject shootEnemy;
-    private float spawnRate = 1f;
+    private float spawnRate = 5f;
     private float time;
     // Start is called before the first frame update
     void Start()
